@@ -12,7 +12,7 @@ Ambientes críticos, como UTIs, exigem um rigoroso controle ambiental para garan
 - Realizar o monitoramento contínuo de temperatura e umidade.
 - Emitir alertas sonoros e visuais quando os parâmetros saírem das faixas ideais.
 - Integrar o Arduino com plataformas de automação como Node-RED para facilitar a análise e gestão dos dados.
-- Enviar dados ambientais para consumo externo via protocolo MQTT.
+- Enviar dados ambientais para consumo externo via protocolo MQTT e HTTP.
 
 ---
 ## 🔧 Especificações Técnicas
@@ -25,7 +25,7 @@ Ambientes críticos, como UTIs, exigem um rigoroso controle ambiental para garan
   - LED Vermelho: Indica estado de alerta (temperatura ou umidade fora dos limites).
   - LED Verde: Indica estado normal (temperatura e umidade dentro dos limites).
 - **Comunicação Serial:** Transmissão de dados para o Node-RED via Arduino IDE
-- **Comunicação via Broker MQTT:** Disponibilização dos dados para consumo por aplicações externas usando protocolo de rede MQTT
+- **Comunicação via Broker MQTT:** Disponibilização dos dados para consumo por aplicações externas via protocolo MQTT
 - **Comunicação via HTTP:** Disponibilização dos dados para consumo por aplicações externas via protocolo HTTP
 
 ---
