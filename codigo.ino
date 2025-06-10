@@ -4,7 +4,7 @@
 #include<LiquidCrystal_I2C.h>
 // Pinos
 #define DHTPIN 4
-#define DHTTYPE 11
+#define DHTTYPE 22
 #define ledR 3
 #define ledG 2
 #define buzzerPin 5
@@ -100,3 +100,4 @@ void loop() {
   checkSensor();
   delay(1500);
 }
+ 
